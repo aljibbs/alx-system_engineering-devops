@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lHd -- *[[:upper:]]*
+ls -ap|grep '^[A-Z].*[^/]$'
